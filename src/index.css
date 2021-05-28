@@ -1,0 +1,32 @@
+@import-normalize; /* bring in normalize.css styles */
+
+/*your css styling goes here*/
+
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgb(0, 114, 206);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+  padding: 5px;
+}
+
+.App-footer {
+  background-color: rgb(0, 114, 206);
+  height: 20px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.App-footer a {
+  color: white;
+}
